@@ -1,0 +1,177 @@
+
+.wrapper {
+    min-height: 3450px;
+    width: 1280px;
+    margin: 0 auto;
+    padding-top: 150px;
+    background-color: white;
+}
+
+.hero {
+    height: 700px;
+    background-image: linear-gradient(rgba(188, 161, 199, .2),rgba(255, 210, 227, .2)), url("../images/hero.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.9);
+    transition: transform 0.4s cubic-bezier(0,0, 0.3, 1);
+}
+
+.hero:hover{
+    position: relative;
+    transform: scale(1);
+}
+.callout {
+    color: #3a2c40;
+    margin: 0 auto;
+    text-decoration: none;
+    font-size: 40px;
+    width:610px;
+    height: 200px;
+    text-align: center;
+    font-family: queen;
+    transform: scale(0.9);
+    transition: transform 0.4s cubic-bezier(0,0, 0.3, 1);
+    justify-content: center;
+    text-shadow: 0 0 10px #e3c8ed, 0 0 20px #e3c8ed, 0 0 30px #e3c8ed;
+}
+
+
+
+.callout:hover{
+    position: relative;
+    transform: scale(1);
+}
+
+
+.tsi {
+    font-family: queenLight;
+    width:610px;
+    height: 200px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.content-holder {
+    background-color: #fff;
+    height: 900px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+
+
+
+.content-2 {
+    height: 850px;
+    background-color: #DFA3A6;
+    width: 1180px;
+}
+
+.products {
+    width: 182px;
+    height: 49px;
+    margin: 0 auto;
+    margin-top: 81px;
+}
+
+
+
+.quote-holder {
+    width: 1180px;
+    height: 250px;
+    background-color: #C38D94;
+    display: flex;
+}
+.pq {
+    font-family: MinionI;
+    color: #fff;
+    font: italic;
+}
+
+.quote1 {
+    width: 240px;
+    height: 137px;
+    margin-left: 148px;
+    margin-top: 57px;
+    text-align: center;
+    font-size: 20px;
+    font: italic;
+}
+
+.quote2 {
+    width: 222px;
+    height: 139px;
+    margin-left: 100px;
+    margin-top: 57px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.quote3 {
+    width: 222px;
+    height: 139px;
+    margin-left: 100px;
+    margin-top: 57px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.contact-holder {
+    margin-top: 150px;
+    width: 1280px;
+    height: 700px;
+    background-color: #FBC3B6;
+    
+}
+
+.signup-section {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #DFA3A6;
+    border-radius: 5px;
+    background-color: #DFA3A6;
+    
+}
+
+
+.signup-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-section form {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.signup-section label {
+    margin-bottom: 5px;
+}
+
+.signup-section input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.signup-section button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color: #0056b3;
+}
