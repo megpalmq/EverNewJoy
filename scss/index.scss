@@ -122,56 +122,10 @@
     font-size: 20px;
 }
 
-.contact-holder {
-    margin-top: 150px;
-    width: 1280px;
-    height: 700px;
-    background-color: #FBC3B6;
+@media all and (max-width:1294px ){
+    .wrapper{
+        width:100%;
+        font-size: 16px;
+    }
+}
     
-}
-
-.signup-section {
-    width: 300px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #DFA3A6;
-    border-radius: 5px;
-    background-color: #DFA3A6;
-    
-}
-
-
-.signup-section h2 {
-    text-align: center;
-    margin-bottom: 20px;
-}
-
-.signup-section form {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.signup-section label {
-    margin-bottom: 5px;
-}
-
-.signup-section input {
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 3px;
-    border: 1px solid #ccc;
-}
-
-.signup-section button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.signup-section button:hover {
-    background-color: #0056b3;
-}

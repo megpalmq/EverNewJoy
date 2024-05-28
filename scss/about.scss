@@ -52,3 +52,44 @@ h3 {
     letter-spacing: 0.6px;
     font: normal;
 }
+@media only screen and (max-width: 1194px) {
+    .content-1 {
+        width: 100%; 
+        max-width: none; 
+    }
+
+    .about-text-holder {
+        width: 100%; 
+        max-width: 100%; 
+        margin: 100px auto 0; 
+        text-align: center; padding: 30px;
+    }
+
+    h3 {
+        margin-left: auto; 
+        margin-right: auto; 
+    }
+
+    .kristin {
+        justify-content: center; 
+        margin-left: auto;
+        margin-right: auto; 
+    }
+
+    .kristin img {
+        width: 100%; 
+        max-width: 300px; 
+        height: auto; 
+        margin-left: 0; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+    }
+
+    .about-text {
+        width: 100%; 
+        max-width: 100%; 
+        margin-left: auto; 
+        margin-right: auto; 
+        text-align: center;
+    }
+}
